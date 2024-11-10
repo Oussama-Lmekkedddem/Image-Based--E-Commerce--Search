@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Eflyer</title>
+       <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+   </head>
+   <body>
+      <div class="banner_bg_main">
+         <div class="header_section mt-4">
+            <div class="container">
+               <div class="containt_main">
+                  <div class="main">
+
+ <div class="input-group" style="width: 50%; margin-left: 25%;">
+        <input type="text" class="form-control" placeholder="Search this blog">
+        <div class="input-group-append">
+            <label class="btn btn-secondary" style="background-color: #e18a33; border-color: #d99438 ; height: 100%;">
+                <i class="fa fa-camera mt-2" style="font-size: 20px; align-content: center;"></i>
+                <input type="file" style="display: none;" id="fileInput" onchange="handleFileSelect()">
+            </label>
+        </div>
+ </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="banner_section layout_padding">
+            <div class="container">
+               <div id="my_slider" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
+                              <div class="buynow_bt"><a href="#">Buy Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
+                              <div class="buynow_bt"><a href="#">Buy Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <h1 class="banner_taital">Get Start <br>Your favriot shoping</h1>
+                              <div class="buynow_bt"><a href="#">Buy Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+                  <i class="fa fa-angle-left"></i>
+                  </a>
+                  <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+                  <i class="fa fa-angle-right"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- banner bg main end -->
+      <!-- fashion section start -->
+      <div class="fashion_section">
+         <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <h1 class="fashion_taital">Best Products</h1>
+                     <div class="fashion_section_2">
+                        <div class="row">
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Mouse</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
+                                 <div class="tshirt_img"><img src="{{ url_for('static', filename='images/71mX0pLAIDL.jpg') }}" alt="T-Shirt Image"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">See More</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Laptob</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
+                                 <div class="tshirt_img"><img src="{{ url_for('static', filename='images/laptop-img.png') }}" alt="T-Shirt Image"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">See More</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Shose</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
+                                 <div class="tshirt_img"><img src="{{ url_for('static', filename='images/Brunswick_Twisted_Knit_Steel-Blue_Outside_Right_1600x1600.png') }}" alt="T-Shirt Image"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">See More</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <h1 class="fashion_taital">Best Products</h1>
+                     <div class="fashion_section_2">
+                        <div class="row">
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Tv</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
+                                 <div class="tshirt_img"><img src="{{ url_for('static', filename='images/273357_0_spspat.png') }}" alt="T-Shirt Image"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">See More</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Shirt</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
+                                 <div class="tshirt_img"><img src="{{ url_for('static', filename='images/dress-shirt-img.png') }}" alt="T-Shirt Image"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">See More</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Phone</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">$ 30</span></p>
+                                 <div class="tshirt_img"><img src="{{ url_for('static', filename='images/Apple-iPhone-12-PNG-Photo.png') }}" alt="T-Shirt Image"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">See More</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+            </a>
+         </div>
+      </div>
+      <!-- fashion section end -->
+      <!-- electronic section start -->
+      <div class="fashion_section">
+         <div id="electronic_main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <h1 class="fashion_taital">{{ folder_name }}</h1>
+                     {% set counter = 0 %}
+                     {% for image_index in range(0, images|length, num_columns) %}
+                         <div class="fashion_section_2">
+                             <div class="row">
+                                 {% for column_index in range(num_columns) %}
+                                     {% set image_pos = image_index + column_index %}
+                                         {% if image_pos < images|length %}
+                                         <div class="col-lg-4 col-sm-4">
+                                             <div class="box_main">
+                                                <h4 class="shirt_text">{{ folder_name }}</h4>
+                                                <p class="price_text">Start Price <span style="color: #262626;">$ 100</span></p>
+                                                <div class="electronic_img">
+                                                   <img src="{{ static_folder_path + images[image_pos] }}" alt="Image">
+                                                </div>
+                                                <div class="btn_main">
+                                                   <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                                   <div class="seemore_bt"><a href="#">See More</a></div>
+                                                </div>
+                                             </div>
+                                         </div>
+                                         {% endif %}
+                                {% endfor %}
+                             </div>
+                         </div>
+                         {% set counter = counter + num_columns %}
+                     {% endfor %}
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- electronic section end -->
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="footer_logo"><a href="index.html"><img src="{{ url_for('static', filename='images/footer-logo.png') }}" alt="T-Shirt Image"></a></div>
+            <div class="input_bt">
+               <input type="text" class="mail_bt" placeholder="Your Email" name="Your Email">
+               <span class="subscribe_bt" id="basic-addon2"><a href="#">Subscribe</a></span>
+            </div>
+            <div class="footer_menu">
+               <ul>
+                  <li><a href="#">Best Sellers</a></li>
+                  <li><a href="#">Gift Ideas</a></li>
+                  <li><a href="#">New Releases</a></li>
+                  <li><a href="#">Today's Deals</a></li>
+                  <li><a href="#">Customer Service</a></li>
+               </ul>
+            </div>
+            <div class="location_main">Help Line  Number : <a href="#">+1 1800 1200 1200</a></div>
+         </div>
+      </div>
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">© 2020 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a></p>
+         </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <script src="{{ url_for('static', filename='js/js.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+
+   </body>
+</html>

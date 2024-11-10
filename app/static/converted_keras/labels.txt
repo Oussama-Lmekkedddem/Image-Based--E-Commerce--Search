@@ -1,0 +1,12 @@
+0 earphone
+1 furniture
+2 laptop
+3 mouse
+4 pants
+5 perfume
+6 phone
+7 sac
+8 shirt
+9 shoes
+10 tv
+11 watch
